@@ -1,0 +1,33 @@
+{
+  "name": "message-tree",
+  "version": "0.1.8",
+  "main": "./lib/message-tree.umd.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build --target lib --dest lib ./src/main.js",
+    "test": "vue-cli-service serve test/main.js"
+  },
+  "files": [
+    "lib",
+    "README.md",
+    "public"
+  ],
+  "dependencies": {
+    "comment-message-editor": "^1.0.1",
+    "core-js": "^3.6.4",
+    "element-ui": "^2.13.0",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "babel-plugin-component": "^1.1.1",
+    "less": "^3.11.1",
+    "less-loader": "^5.0.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
